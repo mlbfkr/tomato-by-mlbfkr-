@@ -21,7 +21,7 @@ jobs:
         with:
           gradle-version: "8.9"
       - name: Loyihani zipdan ochish
-        run: unzip -o fokus-android.zip -d project
+        run: unzip -o fokus-android111.zip -d project
       - name: APK yig'ish
         working-directory: project
         run: gradle assembleDebug --no-daemon
